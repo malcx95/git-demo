@@ -1,6 +1,7 @@
 import random
 
 def bogosort(seq):
+    "Stupid sort"
     while not is_sorted(seq):
         random.shuffle(seq)
 
