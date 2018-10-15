@@ -1,7 +1,7 @@
 
 def sort(seq):
     """
-    Returns a sorted version of seq
+    Returns a sorted version of seq and modifies the list.
     """
     is_sorted = False
     while not is_sorted:
