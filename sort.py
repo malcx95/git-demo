@@ -14,3 +14,7 @@ def sort(seq):
                 a = False
     return seq
 
+def qsort(seq):
+    if len(seq) <= 1:
+        return seq
+
