@@ -1,7 +1,7 @@
 
 def sort(seq):
     """
-    Returns a sorted version of seq
+    Sorts a given list.
     """
     is_sorted = False
     while not is_sorted:
@@ -12,7 +12,6 @@ def sort(seq):
                 seq[i + 1] = seq[i]
                 seq[i] = temp
                 is_sorted = False
-    return seq
 
 def qsort(seq):
     if len(seq) <= 1:
